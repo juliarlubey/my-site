@@ -1,3 +1,74 @@
-h1 {
-	color: red;
+.container {
+	width: 960px;
+	margin: 20 auto;
+}
+
+.nav {
+	display: inline-block;
+	margin: 80 auto;
+}
+
+.logo {
+  margin:0;
+  padding:0;
+  height: 228px;
+  width: 304px;
+  display: inline-block;
+}
+
+#two {
+	padding: 0 25;
+}
+
+
+.display {
+	display: inline-block;
+	margin: auto auto;
+}
+
+.shows {
+	display: block;
+	margin: auto 85;
+}
+
+.fix {
+	margin: 10 -105;
+}
+
+#touch {
+	display: inline-block;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 25px;
+
+}
+
+a {
+	color: purple;
+	text-decoration: none;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
 }
