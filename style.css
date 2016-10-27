@@ -23,7 +23,7 @@
 
 .display {
 	display: inline-block;
-	margin: auto auto;
+	margin: -70 auto;
 }
 
 .shows {
@@ -35,9 +35,6 @@
 	margin: 10 -105;
 }
 
-#touch {
-	display: inline-block;
-}
 
 p {
 	font-family: sans-serif;
@@ -72,3 +69,11 @@ li a {
 	font-family: sans-serif;
 	font-size: 20px;
 }
+
+body > iframe:first-child { display: none !important; }
+
+ul li.active-link>a{
+     border-bottom: 1px solid black;
+     color: green;
+     padding-bottom:1px;
+ }
