@@ -72,8 +72,67 @@ li a {
 
 body > iframe:first-child { display: none !important; }
 
-ul li.active-link>a{
-     border-bottom: 1px solid black;
-     color: green;
-     padding-bottom:1px;
- }
+.nav a:hover {
+    color: black;
+    background-color: white;
+    border-bottom: green solid 1px;
+}
+
+.art {
+    max-width: 200px;
+    max-height: 100px;
+    display: inline-block;
+    margin: 10 10;
+}
+
+.art img {
+    width: 100%;
+    height: auto;
+}
+
+
+.art:hover {
+        -moz-box-shadow: 0 0 30px #ccc;
+		-webkit-box-shadow: 0 0 30px #ccc;
+		box-shadow: 0 0 30px #ccc;
+
+	}
+
+h1 {
+	font-family: sans-serif;
+	color: black;
+	font-stretch: semi-expanded;
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+}
+
+th, td {
+	padding: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+
