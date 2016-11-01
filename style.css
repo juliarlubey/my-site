@@ -23,7 +23,7 @@
 
 .display {
 	display: inline-block;
-	margin: -70 auto;
+	margin: -70 0;
 }
 
 .shows {
@@ -35,16 +35,45 @@
 	margin: 10 -105;
 }
 
+.get table {
+    width: 100%;
+    font-family: century;
+    border-color: white;
+    font-weight: bold;
+}
+
+
+.get th {
+    height: 70px;
+    border-color: white;
+
+}
+
+.get th, td {
+	padding: 15px;
+    text-align: center;
+    border-color: white;
+}
+
+.center {
+	margin: 10 300;
+}
+
+
+
 
 p {
 	font-family: sans-serif;
-	font-size: 25px;
+	text-align: center;
+	font-size: 15px;
+	color: black;
 
 }
 
 a {
-	color: purple;
+	color: black;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 
@@ -66,7 +95,7 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-family: sans-serif;
+	font-family: century;
 	font-size: 20px;
 }
 
@@ -99,22 +128,16 @@ body > iframe:first-child { display: none !important; }
 	}
 
 h1 {
-	font-family: sans-serif;
+	font-family: century;
 	color: black;
-	font-stretch: semi-expanded;
 	font-size: 30px;
 	text-align: center;
-}
-
-p {
-	text-align: center;
-	font-size: 15px;
-	color: black;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
+    font-family: century;
 }
 
 table, th, td {
@@ -128,6 +151,11 @@ th {
 th, td {
 	padding: 15px;
     text-align: left;
+}
+
+.ugh {
+	height: 20px;
+	width: 20px;
 }
 
 
