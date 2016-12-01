@@ -1,6 +1,7 @@
 .container {
 	width: 960px;
 	margin: 20 auto;
+	max-width: 100%;
 }
 
 .nav {
@@ -127,7 +128,7 @@ h1 {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
     font-family: century;
 }
 
@@ -150,12 +151,10 @@ th, td {
 }
 
 .table {
-	margin: -80;
+	margin: -80 60;
+	max-width: 100%
 }
 
-img {
-  max-width: 100%
-}
 
 
 
