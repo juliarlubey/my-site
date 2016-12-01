@@ -7,6 +7,7 @@
 .nav {
 	display: inline-block;
 	margin: 80 auto;
+	max-width: 100%;
 }
 
 .logo {
@@ -153,6 +154,10 @@ th, td {
 .table {
 	margin: -80 60;
 	max-width: 100%
+}
+
+a {
+	color: green;
 }
 
 
